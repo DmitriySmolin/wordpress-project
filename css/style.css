@@ -266,7 +266,7 @@ h2.title {
     background-color: #efefef;
 }
 
-.gift .gift_logo .gift_img {
+.gift .gift_img {
     display: block;
     margin: 0 auto;
 }
@@ -278,4 +278,65 @@ h2.title {
     font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
+}
+
+.webinar {
+    min-height: 517px;
+    padding: 82px 0 64px 0;
+}
+
+.webinar .webinar_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.webinar .webinar_title_promo {
+    margin-top: 37px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.webinar .webinar_title_date {
+    margin-top: 30px;
+    text-align: center;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.webinar .webinar_description {
+    margin-top: 25px;
+    text-align: center;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.footer {
+    min-height: 166px;
+    padding: 61px 0 69px 0;
+    background-color: #1a1a1a;
+}
+
+.footer .footer-text {
+    justify-content: flex-start;
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+}
+
+.footer .footer-text span {
+    text-decoration: underline;
 }
